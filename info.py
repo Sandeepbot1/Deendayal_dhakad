@@ -28,10 +28,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/56b5deb73f3b132e2bb73.jpg https://graph.org/file/5303692652d91d52180c2.jpg https://graph.org/file/425b6f46efc7c6d64105f.jpg https://graph.org/file/876867e761c6c7a29855b.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://i.ibb.co/8pHTDnt/photo-2025-05-14-15-26-19-7504323230740512784.jpg https://i.ibb.co/QjzvS067/photo-2025-05-13-10-56-51-7504327091916111896.jpg https://i.ibb.co/rKj30H06/photo-2025-05-13-10-56-57-7504327139160752132.jpg https://i.ibb.co/Pv8fPPQD/photo-2025-05-14-15-42-12-7504327220765130768.jpg https://i.ibb.co/kLBhXpL/photo-2025-05-13-10-56-45-7504327349614149636.jpg https://i.ibb.co/ZzLQFWjt/photo-2025-05-13-10-56-29-7504327383973888016.jpg https://i.ibb.co/d02RwFXD/photo-2025-05-13-10-56-35-7504327444103430168.jpg https://i.ibb.co/QF6LKhsV/photo-2025-05-13-10-56-02-7504327517117874196.jpg https://i.ibb.co/cSmX7VxG/photo-2025-05-13-10-56-23-7504327564362514448.jpg https://i.ibb.co/MkHCFQK3/photo-2025-05-13-10-56-16-7504327478463168516.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/60e8a622b14796e4448ce.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://i.ibb.co/mrTmYJd0/photo-2025-05-14-15-44-41-7504327852125323280.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/242b7f1b52743938d81f1.jpg'))
 FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c3d8.jpg https://graph.org/file/56b5deb73f3b132e2bb73.jpg')).split()  # Fsub pic
 
@@ -151,7 +151,7 @@ SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "seas
 # Server & Web Configuration
 # ============================
 
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set Stream mode True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set Stream mode True or False
 
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
